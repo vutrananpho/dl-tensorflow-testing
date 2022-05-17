@@ -16,6 +16,6 @@ addition = tf.add(X, Y, name="addition")
 # operate the session
 with tf.compat.v1.Session() as session:
 
-    result = session.run(addition, feed_dict={X: [1, 2, 10], Y: [4, 2, 10]}) # matrice
+    result = session.run(addition, feed_dict={X: [1, 2, 10], Y: [4, 2, 10]}) # array
 
     print(result) # run the program
