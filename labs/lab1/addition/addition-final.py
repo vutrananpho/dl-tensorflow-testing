@@ -1,3 +1,7 @@
+"""
+lab1/addition by @PV Pho Vu 
+date: may 17, 2022
+"""
 import os # set up environment
 import tensorflow as tf # needs library
 
